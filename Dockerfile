@@ -39,6 +39,6 @@ USER miner
 WORKDIR /config
 VOLUME /config
 
-ENTRYPOINT ["xmrig"]
+ENTRYPOINT ["start-xmrig.sh"]
 
 CMD ["--help"]
