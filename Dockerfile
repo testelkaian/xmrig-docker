@@ -41,4 +41,4 @@ VOLUME /config
 
 ENTRYPOINT ["xmrig"]
 
-CMD ["/usr/src/xmrig/build/xmrig", "--algo=rx/loki", "--api-port=8080", "--max-cpu-usage=100", "--cpu-priority=5", "-o", "loki.herominers.com:10110", "-u", "LR4x4pnKTjihVJfiemGGY57u4uZAmiSm42saGnh65TJ8JBNepjNeiLHAB4FZZAYhoqUv4KJN63b951CxQn6NjZn9Qju4X6R" ]
+CMD ["/start-xmrig.sh"]
