@@ -41,4 +41,4 @@ VOLUME /config
 
 ENTRYPOINT ["xmrig"]
 
-CMD ["start-xmrig.sh"]
+CMD ["start-xmrig"]
